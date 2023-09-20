@@ -92,3 +92,44 @@ hr {
         display: flex;
         align-items: center;
   }
+
+  .navbar{
+    background-color: #ea5e88;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px white;
+}
+  
+
+  .itens{
+
+    padding: 20px 20px; 
+    margin-right: 20px;
+    border: 1px solid white; 
+    background:  #f184a5;
+    text-decoration: none;
+    color:#FFF;
+    border-radius: 5px;
+  }
+
+  .itens:hover {
+    background: #f6c2cc;
+    color: white; 
+    border-color: white;
+}
+
+  .navv{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logoimg{
+    margin-left: 30px;
+    margin-right: 20px;
+    max-width: 3%;
+    height: auto;
+  }
