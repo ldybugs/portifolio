@@ -1,15 +1,18 @@
 body{
     background-color: #eed4d9;
+    margin: 0;
 }
 
 .grid{
-        display: grid;
-        position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px ;
 }
 
 .card{
     background-color: #F781A5;
-    margin: 100px auto;
+    margin: 30px;
     height: 510px;
     width: 330px;
     border-radius: 12px;
@@ -23,6 +26,8 @@ body{
 .card:hover { 
     transform: scale(1.1); 
 }
+
+
 
 .image{
     display: flex;
@@ -41,6 +46,9 @@ body{
 }
 
 .h1 {
+    animation: headShake; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-iteration-count: infinite;
     margin-left: 25px;
     font-size: 23px;
     color: white;
