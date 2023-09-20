@@ -64,6 +64,7 @@ hr {
 
 .creditos {
     text-align: center;
+    margin-left: 10px;
     font-size: 14px;
     color: white;
     font-family: system-ui;
@@ -76,4 +77,10 @@ hr {
     width: 10%;
     object-fit: cover;
     margin-left: 15px;
+  }
+
+
+  .creditoo{
+        display: flex;
+        align-items: center;
   }
