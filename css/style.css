@@ -1,0 +1,84 @@
+body{
+    background-color: #eed4d9;
+}
+
+.grid{
+        display: grid;
+        position: relative;
+}
+
+.card{
+    background-color: #F781A5;
+    margin: 100px auto;
+    height: 510px;
+    width: 330px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 20px #FBA3BE;
+    transition: all .2s ease-in-out; 
+    border: solid 2px;
+    border-color: #f6c2cc;
+}
+
+.card:hover { 
+    transform: scale(1.1); 
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.img{
+    border-radius: 10px;
+    width: 87%;
+}   
+
+.img2{
+    width: 13%;
+    margin-left: 260px;
+}
+
+.h1 {
+    margin-left: 25px;
+    font-size: 23px;
+    color: white;
+    font-family: system-ui;
+}
+
+.legenda{
+    margin-left: 25px;
+    font-size: 12px;
+    color: white;
+    font-family: system-ui;
+    opacity: 0.6;
+}
+
+hr {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #f6c2cc;
+    margin-top: 1px;
+}
+
+.creditos {
+    margin-left: 10px;
+    font-size: 14px;
+    color: white;
+    font-family: system-ui;
+    opacity: 0.8;
+}
+
+.wrapper {
+    border-radius: 100%;
+    border: 1px solid #ffffff22;
+    width: 10%;
+    object-fit: cover;
+    margin-left: 15px;
+  }
+
+  .creditoo{
+        display: flex;
+        align-items: center;
+  }
